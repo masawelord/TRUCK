@@ -16,15 +16,11 @@
 
         @include('layouts.header')
         @include('layouts.navi-store')
-
-
-        <!-- ============================================================== -->
+       <!-- ============================================================== -->
         <!-- Start Page Content here -->
         <!-- ============================================================== -->
-
         <div class="content-page">
             <div class="content">
-
                 <!-- Start Content-->
                 <div class="container-fluid">
 
@@ -145,25 +141,14 @@
 
                 </div>
                 <!-- container -->
-
             </div>
             <!-- content -->
-
             @include('layouts.footer')
-
         </div>
-
-        <!-- ============================================================== -->
-        <!-- End Page content -->
-        <!-- ============================================================== -->
-
-
-    </div>
+       
+           </div>
     <!-- END wrapper -->
-
-
     @include('assets.js')
-
 </body>
 
 </html>
