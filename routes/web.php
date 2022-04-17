@@ -17,10 +17,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
 Route::get('/dashboard',[PageController::class, 'dashboard']);
 Route::get('/',[LoginController::class, 'login'])->name('login');
 Route::get('/register',[RegisterController::class, 'register'])->name('register');
+Route::post('custom-login', [LoginController::class, 'customLogin'])->name('login.custom');
+Route::post('custom-registration', [RegisterController::class, 'customRegistration'])->name('register.custom');  
+Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
+
+
 
 // store keeper..
 Route::get('/Pathroute',[PathrouterController::class, 'pathroute']);

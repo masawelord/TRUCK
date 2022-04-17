@@ -19,20 +19,26 @@
                             <div class="card-title text-center">
                                 <h2 style="font-size:medium;font-weight:bold">TRUCK<span class="text-primary">Transport</span></h2>
                             </div>
-                            <form action="#">
-
+                            <form method="POST" action="{{ route('login.custom') }}">
+                                @csrf
                                 <div class="mb-3 w-100 justify-content-center">
                                     <label for="emailaddress" class="form-label">Email address</label>
-                                    <input class="form-control" type="email" id="emailaddress" required="" placeholder="Enter your email">
+                                    <input class="form-control" type="email" name="email" id="emailaddress" required="your email" placeholder="Enter your email">
+                                    @if ($errors->has('email'))
+                                    <span class="text-danger">{{ $errors->first('email') }}</span>
+                                    @endif
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="password" class="form-label">Password</label>
                                     <div class="input-group input-group-merge">
-                                        <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                                        <input type="password" id="password" name="password " class="form-control" required="your password" placeholder="Enter your password">
                                         <div class="input-group-text" data-password="false">
                                             <span class="password-eye"></span>
                                         </div>
+                                        @if ($errors->has('password'))
+                                        <span class="text-danger">{{ $errors->first('password') }}</span>
+                                        @endif
                                     </div>
                                 </div>
 
