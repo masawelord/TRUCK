@@ -1,7 +1,7 @@
 <?php
 use App\Models\User;
-use Hash;
-use Session;
+//use Hash;
+use Illuminate\Contracts\Session\Session;
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
