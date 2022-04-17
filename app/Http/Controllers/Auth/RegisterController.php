@@ -15,26 +15,30 @@ class RegisterController extends Controller
         return view('register');
     }
     public function customRegistration(Request $request)
-    {  
+    {   
         $request->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users',
             'password' => 'required|min:6',
         ]);
-           
-        $data = $request->all();
-        $check = $this->create($data);
-         
-        return redirect("dashboard")->withSuccess('You have signed-in');
+        
+        $user = User::create(request(['name', 'email', 'password']));
+        dd($request->all());
+        $check = $this->create($user);
+       // auth()->login($user);
+        return redirect()->to('/games');
+        // $data = $request->all();
+        // $check = $this->create($data);
+        // return redirect("dashboard")->withSuccess('You have signed-in');
     }
-    public function create(array $data)
-    {
-      return User::create([
-        'name' => $data['name'],
-        'email' => $data['email'],
-        'password' => Hash::make($data['password'])
-      ]);
-    } 
+    // public function create(array $data)
+    // {
+    //   return User::create([
+    //     'name' => $data['name'],
+    //     'email' => $data['email'],
+    //     'password' => Hash::make($data['password'])
+    //   ]);
+    // } 
     
- 
+   
 }

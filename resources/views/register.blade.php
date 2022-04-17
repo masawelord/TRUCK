@@ -34,14 +34,14 @@
 
                                 <div class="mb-3">
                                     <label for="fullname" class="form-label">Full Name</label>
-                                    <input class="form-control" type="text" id="fullname" name="name" placeholder="Enter your name" required outfocus>
+                                    <input class="form-control" type="text" id="fullname" name="name" placeholder="Enter your name">
                                     @if ($errors->has('name'))
                                     <span class="text-danger">{{ $errors->first('name') }}</span>
                                     @endif
                                 </div>
                                 <div class="mb-3">
                                     <label for="emailaddress" class="form-label">Email address</label>
-                                    <input class="form-control" type="email" id="emailaddress" name="email" required placeholder="Enter your email" required outfocus>
+                                    <input class="form-control" type="email" id="emailaddress" name="email" required placeholder="Enter your email">
                                     @if ($errors->has('email'))
                                     <span class="text-danger">{{ $errors->first('email') }}</span>
                                     @endif
