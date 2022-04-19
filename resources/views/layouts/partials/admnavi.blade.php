@@ -16,26 +16,26 @@
                     
                  </li>
                  <li>
-                     <a href="/Pathroute">
+                     <a href="/muhasibudash">
                          <i data-feather="calendar"></i>
-                         <span>Route</span>
+                         <span>Accounts</span>
                      </a>
                  </li>
 
                  <li>
                      <a href="#">
                          <i data-feather="message-square"></i>
-                         <span>Gaurage</span>
+                         <span>Storekeeper</span>
                      </a>
                  </li>
                  <li>
                      <a href="apps-social-feed.html">
                          <i data-feather="rss"></i>
-                         <span>Vehicles</span>
+                         <span>Garage</span>
                      </a>
                  </li>
                  <li>
-                     <a href="/sto-drivers">
+                     <a href="/drivers">
                          <i data-feather="user"></i>
                          <span>Driver</span>
                      </a>

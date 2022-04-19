@@ -18,14 +18,14 @@
                  <li>
                      <a href="/Pathroute">
                          <i data-feather="calendar"></i>
-                         <span>Route</span>
+                         <span>Report</span>
                      </a>
                  </li>
 
                  <li>
                      <a href="#">
                          <i data-feather="message-square"></i>
-                         <span>Gaurage</span>
+                         <span>Invoice</span>
                      </a>
                  </li>
                  <li>
@@ -35,7 +35,7 @@
                      </a>
                  </li>
                  <li>
-                     <a href="/sto-drivers">
+                     <a href="#">
                          <i data-feather="user"></i>
                          <span>Driver</span>
                      </a>

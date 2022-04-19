@@ -7,7 +7,16 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function dashboard(){
+    public function dashboard()
+    {
         return view('admin.dashboard');
+    }
+
+    public function manager()
+    {
+        return view('manager.managerboard');
+    }
+    public function drivers(){
+        return view('manager.pages.drivers');
     }
 }

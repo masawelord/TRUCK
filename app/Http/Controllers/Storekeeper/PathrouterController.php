@@ -9,11 +9,18 @@ use Illuminate\Support\Facades\Auth;
 class PathrouterController extends Controller
 {
         public function pathroute()
+
     {
-        if(Auth::check()){
-            return view('dashboard');
-        }
+        return view('stockkeeper.pages.Pathroute');
+
+        // if(Auth::check()){
+        //     return view('dashboard');
+        // }
   
-        return redirect("login")->withSuccess('You are not allowed to access');
+        // return redirect("/")->withSuccess('You are not allowed to access');
+    }
+
+    public function storedrivers(){
+        return view('stockkeeper.pages.sto-drivers');
     }
 }
