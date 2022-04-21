@@ -3,14 +3,16 @@
 use App\Http\Controllers\Admin\PageController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Home\HomeController;
 use App\Http\Controllers\muhasibu\muhasibuController;
 use App\Http\Controllers\Storekeeper\PathrouterController;
 use Illuminate\Support\Facades\Route;
 
-
+// homepage route
+Route::get('/',[HomeController::class, 'index'])->name('home');
 
 Route::get('/dashboard',[PageController::class, 'dashboard']);
-Route::get('/',[LoginController::class, 'login'])->name('login');
+Route::get('/login',[LoginController::class, 'login'])->name('login');
 Route::get('/register',[RegisterController::class, 'register'])->name('register');
 Route::post('custom-login', [LoginController::class, 'customLogin'])->name('login.custom');
 Route::post('custom-registration', [RegisterController::class, 'customRegistration'])->name('register.custom');  
