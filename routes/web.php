@@ -30,3 +30,7 @@ Route::get('/drivers',[PageController::class, 'drivers']);
 //muhasibu route
 
 Route::get('/muhasibudash', [muhasibuController::class,'muhasibu']);
+Route::get('/invoice', [muhasibuController::class,'invoice']);
+Route::get('/create-invoice', [muhasibuController::class,'create_invoice']);
+
+

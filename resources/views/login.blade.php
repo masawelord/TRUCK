@@ -17,7 +17,8 @@
 
                         <div class="card-body p-3" style=" box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; width:100%;">
                             <div class="card-title text-center">
-                                <h2 style="font-size:medium;font-weight:bold">TRUCK<span class="text-primary">Transport</span></h2>
+                                <h2 style="font-size:medium;font-weight:bold">YARONGA ENTERPRISE <br>
+                                <span class="text-primary">Company Limited</span></h2>
                             </div>
                             <form method="POST" action="#">
                                 <!-- @csrf -->

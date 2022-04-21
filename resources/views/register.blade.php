@@ -21,7 +21,7 @@
                                         <!-- <span class="logo-lg">
                                                 <img src="../assets/images/logo-dark.png" alt="" height="22">
                                             </span> -->
-                                        <h2 style="font-size:medium;font-weight:bold">TRUCK<span class="text-primary">Transport</span></h2>
+                                        <h2 style="font-size:medium;font-weight:bold;line-height:1.7;">Yaronga Enterprises <br> <span class="text-primary">Company Limited</span></h2>
 
                                     </a>
 

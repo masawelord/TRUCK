@@ -9,11 +9,11 @@
              <ul id="side-menu">
 
                  <li>
-                     <a href="/dashboard">
+                     <a href="/muhasibudash">
                          <i data-feather="airplay"></i>
                          <span> Dashboard</span>
                      </a>
-                    
+
                  </li>
                  <li>
                      <a href="/Pathroute">
@@ -22,25 +22,43 @@
                      </a>
                  </li>
 
-                 <li>
-                     <a href="#">
-                         <i data-feather="message-square"></i>
-                         <span>Invoice</span>
+                   <li>
+                     <a href="#sidebarDashboards" data-bs-toggle="collapse">
+                         <i data-feather="airplay"></i>
+                         <span> Invoice </span>
                      </a>
+                     <div class="collapse" id="sidebarDashboards">
+                         <ul class="nav-second-level">
+                             <li>
+                                 <a href="/invoice"> Total Invoice</a>
+                             </li>
+                             <li>
+                                 <a href="/create-invoice">Create Invoice</a>
+                             </li>
+                             
+                         </ul>
+                     </div>
                  </li>
+
                  <li>
                      <a href="apps-social-feed.html">
                          <i data-feather="rss"></i>
-                         <span>Vehicles</span>
+                         <span>Total Sales</span>
                      </a>
                  </li>
                  <li>
                      <a href="#">
                          <i data-feather="user"></i>
-                         <span>Driver</span>
+                         <span>Expenses</span>
                      </a>
                  </li>
-                
+                 <li>
+                     <a href="#">
+                         <i data-feather="user"></i>
+                         <span>Orders</span>
+                     </a>
+                 </li>
+
              </ul>
 
          </div>

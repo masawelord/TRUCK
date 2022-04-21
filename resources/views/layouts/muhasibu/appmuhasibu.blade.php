@@ -51,7 +51,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-3">
-                                        <h6 class="text-uppercase">Registered Route</h6>
+                                        <h6 class="text-uppercase">Recent Invoices</h6>
                                         
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-3">
-                                        <h6 class="text-uppercase">Vehicle</h6>
+                                        <h6 class="text-uppercase">Total Orders</h6>
                                         
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-3">
-                                        <h6 class="text-uppercase">Driver</h6>
+                                        <h6 class="text-uppercase">Total Expenses</h6>
                                        
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-3">
-                                        <h6 class="text-uppercase">Cargos</h6>
+                                        <h6 class="text-uppercase">Checked Receipts</h6>
                                        
                                     </div>
                                 </div>

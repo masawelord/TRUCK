@@ -5,7 +5,7 @@
                         <div class="col-md-6">
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> &copy; Maintaened by<a href="">Transport Truck</a>
+                            </script> &copy; Maintaened by<a href="">Yaronga Enterprises Company Limited</a>
                         </div>
                         <div class="col-md-6">
                             <div class="text-md-end footer-links d-none d-sm-block">
