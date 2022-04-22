@@ -15,24 +15,24 @@
     <!-- Spinner End -->
 
 
-  @include('layouts.home.navigation')
+    @include('layouts.home.navigation')
 
 
     @include('layouts.home.header')
 
 
-  @include('layouts.home.content')
+    @include('layouts.home.content')
 
 
 
-@include('layouts.home.footer')
-  
+    @include('layouts.home.footer')
+
 
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-@include('./assets.homejs')
+    @include('./assets.homejs')
 </body>
 
 </html>
