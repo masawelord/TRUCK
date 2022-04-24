@@ -18,14 +18,15 @@ class LoginController extends Controller
 
     public function customLogin(Request $request)
     {
-        $request->validate([
+        $credentials=$request->validate([
             'email' => 'required',
             'password' => 'required',
         ]);
 
-        $credentials = $request->only('email', 'password');
+        
         if (Auth::attempt($credentials))
          {
+            $request->session()->regenerate();
             return redirect()->intended('dashboard')
                 ->withSuccess('Signed in');
         }

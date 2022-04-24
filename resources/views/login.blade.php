@@ -20,9 +20,9 @@
                                 <h2 style="font-size:medium;font-weight:bold">YARONGA ENTERPRISE <br>
                                 <span class="text-primary">Company Limited</span></h2>
                             </div>
-                            <form method="POST" action="#">
-                                <!-- @csrf -->
-                                <!-- {{ route('login.custom') }} -->
+                            <form method="POST" action="{{ route('login')}}">
+                                @csrf
+                               
                                 <div class="mb-3 w-100 justify-content-center">
                                     <label for="emailaddress" class="form-label">Email address</label>
                                     <input class="form-control" type="email" name="email" id="emailaddress" required="your email" placeholder="Enter your email">

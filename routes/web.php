@@ -14,8 +14,8 @@ Route::get('/',[HomeController::class, 'index'])->name('home');
 Route::get('/dashboard',[PageController::class, 'dashboard']);
 Route::get('/login',[LoginController::class, 'login'])->name('login');
 Route::get('/register',[RegisterController::class, 'register'])->name('register');
-Route::post('custom-login', [LoginController::class, 'customLogin'])->name('login.custom');
-Route::post('custom-registration', [RegisterController::class, 'customRegistration'])->name('register.custom');  
+Route::post('/login', [LoginController::class, 'customLogin']);
+Route::post('/register', [RegisterController::class, 'customRegistration']);  
 Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
 
 

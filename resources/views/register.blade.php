@@ -29,7 +29,7 @@
                                 <p class="text-muted mb-4 mt-3">Sign Up here</p>
                             </div>
 
-                            <form action="{{ route('register.custom') }}" method="POST">
+                            <form action="{{ route('register') }}" method="POST">
                                 @csrf
 
                                 <div class="mb-3">
