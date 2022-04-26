@@ -45,7 +45,7 @@
                       </div>
                       <h4 class="mb-3">Air Freight</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -55,7 +55,7 @@
                       </div>
                       <h4 class="mb-3">Ocean Freight</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -65,7 +65,7 @@
                       </div>
                       <h4 class="mb-3">Road Freight</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -75,7 +75,7 @@
                       </div>
                       <h4 class="mb-3">Train Freight</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -85,7 +85,7 @@
                       </div>
                       <h4 class="mb-3">Customs Clearance</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -95,7 +95,7 @@
                       </div>
                       <h4 class="mb-3">Warehouse Solutions</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                   </div>
               </div>
           </div>
