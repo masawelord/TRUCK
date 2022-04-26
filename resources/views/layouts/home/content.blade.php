@@ -261,14 +261,14 @@
       <div class="container py-5">
           <div class="row g-5 align-items-center">
               <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                  <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
-                  <h1 class="mb-5">Request A Free Qoute!</h1>
+                  <h6 class="text-secondary text-uppercase mb-3">Request a Truck Here</h6>
+                  <h1 class="mb-5">Request A Free Route with an Truck</h1>
                   <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                   <div class="d-flex align-items-center">
-                      <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                      <i class="fa fa-headphones fa-2x flex-shrink-0 bg-secondary p-3 text-white"></i>
                       <div class="ps-4">
                           <h6>Call for any query!</h6>
-                          <h3 class="text-primary m-0">+012 345 6789</h3>
+                          <h3 class="text-dark m-0">+012 345 6789</h3>
                       </div>
                   </div>
               </div>
@@ -287,17 +287,17 @@
                               </div>
                               <div class="col-12 col-sm-6">
                                   <select class="form-select border-0" style="height: 55px;">
-                                      <option selected>Select A Freight</option>
-                                      <option value="1">Freight 1</option>
-                                      <option value="2">Freight 2</option>
-                                      <option value="3">Freight 3</option>
+                                      <option selected>Select A Truck</option>
+                                      <option value="1">Truck 01</option>
+                                      <option value="2">Truck 02</option>
+                                      <option value="3">Truck 03</option>
                                   </select>
                               </div>
                               <div class="col-12">
                                   <textarea class="form-control border-0" placeholder="Special Note"></textarea>
                               </div>
                               <div class="col-12">
-                                  <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                  <button class="btn btn-secondary w-100 py-3" type="submit">Request here</button>
                               </div>
                           </div>
                       </form>
