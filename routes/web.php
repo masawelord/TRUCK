@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Route;
 
 // homepage route
 Route::get('/',[HomeController::class, 'index'])->name('home');
+Route::get('/contact',[HomeController::class, 'contact']);
+
 
 Route::get('/dashboard',[PageController::class, 'dashboard']);
 Route::get('/login',[LoginController::class, 'login'])->name('login');
