@@ -315,7 +315,7 @@
     align-items: center;
     font-size: 16px;
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--secondary);
     border-radius: 0 35px 35px 0;
     transition: .5s;
     z-index: 2;
