@@ -1,10 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-use Illuminate\Support\Facades\Validator;
-use Hash;
 use App\Http\Controllers\Controller;
-use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session as FacadesSession;
@@ -16,11 +13,11 @@ class LoginController extends Controller
         return view('login');
     }
 
-    public function customLogin(Request $request)
+    public function authenticate(Request $request)
     {
         $credentials=$request->validate([
-            'email' => 'required',
-            'password' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|string',
         ]);
 
         
@@ -31,13 +28,13 @@ class LoginController extends Controller
                 ->withSuccess('Signed in');
         }
 
-        return redirect("/")->withSuccess('Login details are not valid');
+        return redirect("/login")->withSuccess('Login details are not valid');
     }
     public function signOut()
     {
         FacadesSession::flush();
         Auth::logout();
 
-        return Redirect('/');
+        return Redirect('/login');
     }
 }

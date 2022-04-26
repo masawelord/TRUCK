@@ -14,17 +14,9 @@
     </div> -->
     <!-- Spinner End -->
 
-
     @include('layouts.home.navigation')
-
-
     @include('layouts.home.header')
-
-
     @include('layouts.home.content')
-
-
-
     @include('layouts.home.footer')
 
 
