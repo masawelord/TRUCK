@@ -10,8 +10,8 @@
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">#1 Place For Your <span class="text-primary">Cargo Transport</span> Solution</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Request Truck</a>
+                                <a href="/contact" class="btn btn-secondary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="#requestTruck" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Request Truck</a>
                             </div>
                         </div>
                     </div>
@@ -26,8 +26,8 @@
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Cargo Solution</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">#2 Place For Your <span class="text-primary">Transport</span> Solution</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                                <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="/contact" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                             </div>
                         </div>
                     </div>

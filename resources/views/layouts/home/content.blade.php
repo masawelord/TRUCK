@@ -1,5 +1,5 @@
   <!-- About Start -->
-  <div class="container-fluid overflow-hidden py-5 px-lg-0">
+  <div class="container-fluid overflow-hidden py-5 px-lg-0" id="about">
       <div class="container about py-5 px-lg-0">
           <div class="row g-5 mx-lg-0">
               <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -31,7 +31,7 @@
   <!-- About End -->
 
   <!-- Service Start -->
-  <div class="container-xxl py-5">
+  <div class="container-xxl py-5" id="service">
       <div class="container py-5">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
               <h6 class="text-secondary text-uppercase">Our Services</h6>
@@ -41,21 +41,21 @@
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                   <div class="service-item p-4">
                       <div class="overflow-hidden mb-4">
-                          <img class="img-fluid" src="{{asset('home/img/service-1.jpg')}}" alt="">
+                          <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Air Freight</h4>
+                      <h4 class="mb-3">Logistic Transportation</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Request</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                   <div class="service-item p-4">
                       <div class="overflow-hidden mb-4">
-                          <img class="img-fluid" src="{{asset('home/img/service-2.jpg')}}" alt="">
+                          <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Ocean Freight</h4>
+                      <h4 class="mb-3">Cargo Transport</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Request</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -63,19 +63,19 @@
                       <div class="overflow-hidden mb-4">
                           <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Road Freight</h4>
+                      <h4 class="mb-3">Routing Truck</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Request</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                   <div class="service-item p-4">
                       <div class="overflow-hidden mb-4">
-                          <img class="img-fluid" src="{{asset('home/img/service-4.jpg')}}" alt="">
+                          <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Train Freight</h4>
+                      <h4 class="mb-3">Truck Service</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Request</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -85,7 +85,7 @@
                       </div>
                       <h4 class="mb-3">Customs Clearance</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Request</span></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -95,7 +95,7 @@
                       </div>
                       <h4 class="mb-3">Warehouse Solutions</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                      <a class="btn-slide mt-2" href="#requestTruck"><i class="fa fa-arrow-right"></i><span>Request</span></a>
                   </div>
               </div>
           </div>
@@ -148,48 +148,10 @@
   </div>
   <!-- Fact End -->
 
-  <!-- Feature Start -->
-  <div class="container-fluid overflow-hidden py-5 px-lg-0">
-      <div class="container feature py-5 px-lg-0">
-          <div class="row g-5 mx-lg-0">
-              <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                  <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
-                  <h1 class="mb-5">We Are Trusted Logistics Company Since 1990</h1>
-                  <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                      <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
-                      <div class="ms-4">
-                          <h5>Worldwide Service</h5>
-                          <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
-                      </div>
-                  </div>
-                  <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
-                      <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
-                      <div class="ms-4">
-                          <h5>On Time Delivery</h5>
-                          <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
-                      </div>
-                  </div>
-                  <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
-                      <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
-                      <div class="ms-4">
-                          <h5>24/7 Telephone Support</h5>
-                          <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo justo magna erat amet</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
-                  <div class="position-relative h-100">
-                      <img class="position-absolute img-fluid w-100 h-100" src="{{asset('home/img/feature.jpg')}}" style="object-fit: cover;" alt="">
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- Feature End -->
 
 
   <!-- blog start -->
-  <div class="container-xxl py-5">
+  <div class="container-xxl py-5" id="blogs">
       <div class="container py-5">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
               <h6 class="text-secondary text-uppercase">Blogs & Event and News</h6>
@@ -199,9 +161,9 @@
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                   <div class="service-item p-4">
                       <div class="overflow-hidden mb-4">
-                          <img class="img-fluid" src="{{asset('home/img/service-1.jpg')}}" alt="">
+                          <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Air Freight</h4>
+                      <h4 class="mb-3"> Cargo Transport  with Us</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                       <a class="btn btn-secondary text-center mt-2" href="">
                           <span>Read More</span>
@@ -213,9 +175,9 @@
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                   <div class="service-item p-4">
                       <div class="overflow-hidden mb-4">
-                          <img class="img-fluid" src="{{asset('home/img/service-2.jpg')}}" alt="">
+                          <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Ocean Freight</h4>
+                      <h4 class="mb-3">Truk Management with care </h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                       <a class="btn btn-secondary text-center mt-2" href="">
                           <span>Read More</span>
@@ -229,7 +191,7 @@
                       <div class="overflow-hidden mb-4">
                           <img class="img-fluid" src="{{asset('home/img/service-3.jpg')}}" alt="">
                       </div>
-                      <h4 class="mb-3">Road Freight</h4>
+                      <h4 class="mb-3">Do have problem of Logistic?</h4>
                       <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                       <a class="btn btn-secondary text-center mt-2" href="">
                           <span>Read More</span>
